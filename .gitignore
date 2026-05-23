@@ -1,0 +1,37 @@
+# MANAGED BY TEMPLATE (copied 2026-05-23 from 6bed4) — do not edit. Sync from the source template; user must manage overwrites.
+
+# IDE related cache/leak files
+.idea
+.vscode/**
+.obsidian
+.obsidian/**
+.claude
+
+# Local related cache/leak files
+.DS_Store
+**/.envrc
+**/.env
+*.log
+temp/
+build/
+__pycache__
+.ruff_cache/
+.pytest_cache/
+.ansible/
+
+megalinter-reports
+
+# Ansible related cache/leak files
+ansible.cfg
+
+# Kubernetes related cache/leak files
+kubeconfig
+
+# Terraform related cache/leak files
+**/.terraform
+**/*.auto.tfvars
+**/*.tfvars
+**/*.bw-provider-state
+**/terraform.tfstate.backup
+
+# END MANAGED TEMPLATE — add custom content below
